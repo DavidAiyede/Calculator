@@ -39,7 +39,7 @@ header{
   background-color:rgb(138, 11, 138);
 }
 .section input{
-  padding: 60px 75px;
+  padding: 60px 80px;
   background-color:var(--GRAY);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -48,7 +48,7 @@ header{
 }
 .section1{
     display: flex;
-    column-gap: .9rem;
+    column-gap: 1rem
     /* margin-top: 20px; */
 }
 .section1 button{
