@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --GRAY:rgba(74, 74, 74, 0.837);
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color:var(--GRAY) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main {
+  border-radius: 20px;
+  align-items: center;
+  padding: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./coding.jpg);
+}
+header{
+      column-gap: 15rem;
+      align-items: center;
+      display: flex;
+}
+#img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#img2{
+  padding: 8px 3px;
+  background-color:rgb(138, 11, 138);
+}
+.section input{
+  padding: 60px 75px;
+  background-color:var(--GRAY);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  /* margin-top: 20px; */
+}
+.section1{
+    display: flex;
+    column-gap: .7rem;
+    /* margin-top: 20px; */
+}
+.section1 button{
+    padding: 10px 7px;
+    border: 1px solid rgb(166, 143, 102);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    background-color:var(--GRAY);
+}
+.box{
+  margin-top: 20px;
+}
+.icon{
+    column-gap: 1.5rem;
+    margin-top: 5px;
+    display: flex;
+}
+.icon button{
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: var(--GRAY);
+}
+#span button{
+    width: 100%;
+    background-color:rgb(138, 11, 138);
+}
+#spant button{
+  width: 60px;
+  background-color:rgb(138, 11, 138);
+}
+@media screen and (max-width:425px) and (min-width:300px){
+ 
+}
