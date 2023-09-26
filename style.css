@@ -48,7 +48,7 @@ header{
 }
 .section1{
     display: flex;
-    column-gap: .7rem;
+    column-gap: .9rem;
     /* margin-top: 20px; */
 }
 .section1 button{
@@ -63,7 +63,7 @@ header{
   margin-top: 20px;
 }
 .icon{
-    column-gap: 1.5rem;
+    column-gap: 1.9rem;
     margin-top: 5px;
     display: flex;
 }
